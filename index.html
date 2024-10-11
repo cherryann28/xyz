@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========== REMIXICONS ==========-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+     <!--========== GOOGLE FONTS ==========-->
+     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+     <!--========== FONT AWESOME ==========-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css "/>
+    <link rel="stylesheet" href="style.css">
+    <title>Personal portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li class="close" onClick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#fefbff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="nav">
+                <li class="logo-name"><a href=""><strong>Cherry Ann.</strong></a></li>
+                <li class="hideOnMobile"><a class="active" href="#home">Home</a></li>
+                <li class="hideOnMobile"><a href="#about">About</a></li>
+                <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+                <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+                <li class="menu-button" onClick="showSidebar()">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#fefbff">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                    </svg>
+                </li>
+            </ul>
+        </nav> 
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="home-container">
+                <div class="home-data">
+                    <div class="home-title">
+                        <p>Hi, my name is</p> 
+                        <h1>Cherry ann Nepomuceno</h1>
+                        <h1><span class="aspiring">Aspiring web developer</span></h1>
+                    </div>             
+                    <div>
+                        <ul class="home-button">
+                            <a class="home-contact-link" href="#contact" >contact me</a>
+                            <a class="home-resume-link" target="_blank" href="#resume">my resume</a>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="home-data">
+                    <div class="home-profile"> -->
+                        <img src="images/x4.png" class="img-bg" alt="home profile">
+                    <!-- </div>
+                </div> -->
+            </div>
+        </section>
+        <section id="about">
+            <div class="about-container container">
+                <div class="about-data">
+                    <div class="about-profile">
+                        <img src="./images/about-image.png" alt="about-image">
+                    </div>
+                    <div class="about-info">
+                        <h1 class="section-about-title">
+                            About Me
+                        </h1>
+                        <p>I am a recent graduate with a Bachelor's Degree in Information Technology. 
+                            My goal is to gain solid knowledge in Application Development, especially 
+                            in Web Application Development, through employment. I am extremely passionate 
+                            about learning new technologies and consistently engage in self-learning, enjoying 
+                            the exploration of new tools and frameworks to expand my skill set.
+                        </p>
+                        <div class="about-skills">
+                            <h3 class="skills-title">
+                                Tech Stack
+                            </h3>
+                            <div class="skills-info">
+                                <div class="skills-data">
+                                    <img src="images/tech-icons/HTML.png" alt="HTML5">
+                                </div>
+        
+                                <div class="skills-data">
+                                    <img src="images/tech-icons/css3.png" alt="CSS3">
+                                </div>
+        
+                                <div class="skills-data">
+                                    <img src="images/tech-icons/JavaScript.png" alt="javaScript">
+                                </div>
+        
+                                <div class="skills-data">
+                                    <img src="images/tech-icons/jQuery.png" alt="jQuery">
+                                </div>
+        
+                                <div class="skills-data">
+                                    <img src="images/tech-icons/ajax.png" alt="AJAX">
+                                </div>
+                                
+                                <div class="skills-data">
+                                    <img src="images/tech-icons/php.png" alt="PHP">
+                                </div>
+                        
+                                <div class="skills-data">
+                                    <img src="images/tech-icons/codeigniter.png" alt=CodeIgniter">
+                                </div>
+                        
+                                <div class="skills-data">
+                                    <img src="images/tech-icons/mysql.png" alt=MySQL">
+                                </div>
+                        
+                                <div class="skills-data">
+                                    <img src="images/tech-icons/git.png" alt="Git">
+                                </div>
+                        
+                                <div class="skills-data">
+                                    <img src="images/tech-icons/github.png" alt=Github">
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="about-certification">
+                    <h3 class="certification-title">
+                        Certification
+                    </h3>
+                    <div class="certification-info">
+                        <div class="certification-items">
+                            <a target="_blank" href="https://drive.google.com/file/d/1ifwapfBf5t7O_lHeNINa1NHJaOmAMvx7/view">
+                                <div class="certification-data">
+                                    <h4>Proficient in Web Fundamentals</h4>
+                                    <p>Village 88, Inc.</p>    
+                                </div>
+                            </a>
+                        </div>
+                        <div class="certification-items">
+                            <a target="_blank" href="https://drive.google.com/file/d/1xH7UIcmhuQwv0I3pAI31B5KA_QehIOXK/view">
+                                <div class="certification-data">
+                                    <h4>Proficient in Advanced PHP Track</h4>
+                                    <p>Village 88, Inc.</p>    
+                                </div>
+                            </a>
+                        </div>
+                        <div class="certification-items">
+                            <a target="_blank" href="https://drive.google.com/file/d/1I5GxPovG4Bi8hbp5_0Jx3D-Km45gsSD2/view">
+                                <div class="certification-data">
+                                    <h4>Proficient in QA Track</h4>
+                                    <p>Village 88, Inc.</p>    
+                                </div>
+                            </a>
+                        </div>
+                       <div class="certification-items">
+                        <a target="_blank" href="https://drive.google.com/file/d/1U9qwKui1SO1c8sNo58SZsnSfeyFIEZlG/view">
+                            <div class="certification-data">
+                                <h4>Intermediate Front-End Web Development</h4>
+                                <p>Bayan Academy</p>    
+                            </div>
+                        </a>
+                       </div>
+                        <div class="certification-items">
+                            <a target="_blank" href="https://drive.google.com/file/d/17IXYX4WAUwzVaMJG27M8WWrTuFbqUp4m/view">
+                                <div class="certification-data">
+                                    <h4>Creative Web Design Level III</h4>
+                                    <p>Sector East Training Solutions Inc.</p>    
+                                </div>
+                            </a>
+                        </div>
+                        <div class="certification-items">
+                            <a target="_blank" href="https://drive.google.com/file/d/1wG6yzbDH9Fg7oTBA-hZnM4hnsXWi8PAs/view">
+                                <div class="certification-data">
+                                    <h4>Lead Programmers</h4>
+                                    <p>CITExpo 2022 "Achieving the Sustainable Development Goals through Information Technology"</p>    
+                                </div>
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="projects-container container"> 
+                 <h1 class="section-project-title">
+                     Projects
+                 </h1>
+                 <div class="project-list">
+                     <a target="_blank" href="https://www.youtube.com/watch?v=PPYgI1AEYF4">
+                         <div class="projects-info">
+                             <img src="images/projects/inventory-system.png" alt="Inventory-system">
+                             <div class="projects-data">
+                                 <h3 class="projects-name">Inventory Management System</h3>
+                                 <p>Developed an <span>Inventory Management System</span> for  managing and tracking<span> IT assets</span> 
+                                     using HTML, CSS, JavaScript, JQuery, PHP, MySQL, CodeIgniter.
+                                 </p>
+                             </div>
+                         </div>
+                     </a>
+                     <a target="_blank" href="https://github.com/cherryann28/Library-System">
+                         <div class="projects-info">
+                             <img src="images/projects/library.png" alt="Library-system">
+                             <div class="projects-data">
+                                 <h3 class="projects-name">Library System</h3>
+                                 <p>Have done a <span>Library Management System</span> for our <span>Capstone</span> project 
+                                     using HTML, CSS, JavaScript, JQuery, PHP, MySQL, CodeIgniter.
+                                 </p>
+                             </div>
+                         </div>
+                     </a>
+                     <a target="_blank" href="https://www.youtube.com/watch?v=lRGR2pNrHnc">
+                         <div class="projects-info"> 
+                             <img src="images/projects/htmlandcss.png" alt="Webpage">
+                             <div class="projects-data">
+                                 <h3 class="projects-name">HTML & CSS Exam at Village88 Training</h3>
+                                 <p>Able to pass a 4-hr <span>Website cloning exam</span> using pure HTML & CSS only.
+                                 </p>
+                             </div>
+                         </div>
+                     </a>
+                     
+                     <a target="_blank" href="https://cherryann28.github.io/personal-portfolio">
+                         <div class="projects-info">
+                             <img src="images/projects/portfolio.png" alt="Web-portfolio">
+                             <div class="projects-data">
+                                 <h3 class="projects-name">Web Portfolio</h3>
+                                 <p>This would be my first ever website <span>portfolio</span>, which I  
+                                     created while taking Bayan Academy's <span>Intermediate Front-End Web Development </span> Training. 
+                                     More progress is needed, particularly on my <span>projects</span>.
+                                 </p>
+                             </div>
+                         </div>
+                     </a>
+                  
+                 </div>
+             </div>
+         </section>
+         <section id="contact">
+            <div class="contact-container">
+                <h1 class="section-contact-title">
+                    Contact Info
+                </h1>
+                <div class="contact-title">
+                    <h3>Get in Touch</h3>
+                    <p>Drop me a line to say hello or talk about opportunities.</p>
+                </div>
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="icon">
+                            <img src="images/contact-icons/phone.png" alt="phone">
+                        </div>
+                        <div class="contact-info">
+                            <h4>Phone</h4>
+                            <p>(+63) 965-620-4367</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <img src="images/contact-icons/email.png" alt="email">
+                        </div>
+                        <div class="contact-info">
+                            <h4>Email</h4>
+                            <p>cherryannnepomucneo28@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <img src="images/contact-icons/address1.png" alt="address">
+                        </div>
+                        <div class="contact-info">
+                            <h4>Address</h4>
+                            <p>Quezon City, Metro Manila, Philippines</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    </main>
+
+    <footer>
+        <div class="footer-container">
+           <div class="footer-items">
+                <div class="footer-item">
+                    <div class="footer-logo">
+                        <a href="#home">Cherry Ann.</a>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="quick-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="phone">
+                        <h4>Contact</h4>
+                        <p>(+63)965-620-4367</p>
+                        <p>cherryannnepomuceno28@gmail.com</p>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="social-icon">
+                        <h4>Follow</h4>
+                        <ul>
+                            <li><a href="https://www.facebook.com/cherryann.nepomuceno" target="_blank"><span><i class="fab fa-facebook-f"></i></span></a></li>
+                            <li><a href="https://github.com/cherryann28" target="_blank"><span><i class="fab fa-github"></i></span></a></li>
+                            <li><a href="https://www.linkedin.com/in/cherry-ann-nepomuceno-a0aa331b9/" target="_blank"><span><i class="fab fa-linkedin-in"></i></span></a></li>
+                        </ul>
+                    </div> 
+                </div>
+           </div>
+            <div class="footer-items">
+                <div class="created-by">
+                    <p>Created By <span>Cherry ann Nepomuceno</span>. Copyright &#169; 2022. All right reserved.</p>
+                </div>
+            </div>
+        </div>
+         <a href="#" class="scroll-up" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
