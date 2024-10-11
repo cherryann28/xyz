@@ -252,104 +252,7 @@ span{
 
 
 
-
-@media (max-width: 900px) {
-    nav{
-        padding: 0 10px;
-    }
-
-    .home-data{
-        font-size: 1.3rem;
-        padding: 0 40px;
-    }
-
-    .img-bg{
-        max-height: 80vh;
-        padding: 0 20px;
-    }
-}
-
-@media(max-width: 800px){
-
-    
-    .hideOnMobile{
-        display: none;
-    }
-
-    .menu-button{
-        display: block;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    
-   
-}
-
-@media(max-width: 576px) {
-    
-    .home-data{
-        font-size: 1rem;
-        padding-top: 10rem;
-        
-     }
-
-     .home-data p{
-        font-size: 1rem;
-    }
-
-    .img-bg{
-         padding: 0;
-        
-    }
-   
-
-     .home-button {
-        font-size: 12px; 
-    }
-
-    
-}
-
-@media(max-width: 400px){
-
-    nav {
-        padding: 0;
-    }
-    .home-data{
-        padding: 0 30px;
-        padding-top: 10rem;
-    }
-
-    .img-bg{
-        padding: 0;
-        
-    }
-
-    .sidebar{
-        width: 100%;
-    }
-}
-
-
-
-
-
-
-
 /* *************** ABOUT CSS ************* */
-#about{
-    /* background-color: #fafafa; */
-    /* background-color: rgb(15, 15, 15); */
-    /* background-color: #111; */
-    /* background-color:  #121212; */
-    /* background-color: #111; */
-    /* background: 
-    radial-gradient(circle at center, rgba(255, 255, 255, 0.2) 20%, transparent 30%),
-    radial-gradient(circle at top left, rgba(255, 255, 255, 0.3) 20%, transparent 30%),
-    radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.3) 20%, transparent 30%),
-    black; */
-}
 .section-about-title{
     margin-bottom: 20px;
     letter-spacing: .3px;
@@ -538,111 +441,10 @@ span{
 }
 
 
-@media only screen and (max-width: 768px) {
- 
-    .section-about-title{
-        text-align: center;
-    }
-    .about-data {
-        flex-direction: column; 
-        align-items: center; 
-    }
 
-    .about-profile{
-        display: flex; 
-        justify-content: center; 
-        width: 60%;
-        padding: 40px 0px; 
-        margin-bottom: 60px;
-        
-    }
 
-    .about-profile img{
-        width: 100%;
-        max-width: 70%;
-    }
 
-    .about-info {
-        width: 100%; 
-        padding: 0 20px; 
-    }
 
-    .section-about-title{
-        margin-bottom: 30px;
-    }
-
-    .about-skills{
-        margin-top: 60px;
-    }
-
-    .skills-info {
-        justify-content: center;
-    }
-
-    .skills-title{
-        text-align: center;
-    }
-
-    .certification-title{
-        margin: 60px 0 30px 0;
-    }
-}
-
-@media only screen and (max-width: 576px){
-    .container{
-        padding: 100px 20px 20px 20px;
-    }
-    .about-profile{
-        padding: 20px 0;
-    }
-
-    .about-profile img{
-        width: 100%;
-        max-width: 90%;
-    }
-
-    .about-info p{
-        /* text-align: justify; */
-        font-size: 14px;
-    }
-
-    .skills-title{
-        text-align: center;
-    }
-
-    .section-about-title{
-        font-size: 22px;
-    }
-
-    .section-title{
-        font-size: 22px;
-    }
-
-}
-
-@media only screen and (max-width: 340px){
-    .container{
-        padding: 100px 0;
-    } 
-}
-
-@media (max-width: 790px) {
-
-    .certification-data h4{
-        font-size: 14px;
-        font-weight: bold;
-    }
-    .certification-data p{
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 576px){
-    .certification-items {
-        flex: 0 1 100%; 
-        padding: 15px; 
-    }
-}
 
 
 /* =============== PROJECTS ============== */
@@ -741,73 +543,6 @@ span{
 }
 
 
-@media (max-width: 1200px) {
-
-    .projects-info {
-        align-items: center; 
-    }
-    
-    .projects-data {
-        justify-content: center; 
-    }
-
-    .project-list{
-        padding: 0;
-    }
-}
-
-@media (max-width: 900px) {
-    
-    .projects-info {
-        display: flex;          
-        flex-direction: column;  
-    }
-    
-    .projects-info img {
-        max-width: 100%; 
-        margin-bottom: 60px; 
-    }
-
-    .projects-info{
-        padding: 40px;
-        margin-bottom: 60px;
-    }
-
-    .projects-data {
-        width: 100%; 
-        justify-content: center;
-        /* text-align: justify; */
-        padding: 0;
-    }
-}
-
-@media only screen and (max-width: 576px){
-
-    .container{
-        padding: 100px 45px 20px 45px;
-    } 
-
-    .projects-info{
-        padding: 0;
-    }
-
-    .projects-info img{
-        margin-bottom: 30px;
-    }
-    
-    .projects-data{
-        padding: 20px;
-    }
-
-    .projects-name {
-        font-size: 16px; 
-        font-weight: bold;   
-    }
-    
-    .projects-data p{   
-        font-size: 14px;
-    }
-}
 
 
 
@@ -906,23 +641,6 @@ span{
     color: #c7c7b4;
 }
 
-@media only screen and (max-width: 576px){
-
-    .contact-container .section-title{
-        margin-bottom: 30px;
-    }
-    .contact-info{
-        font-size: 14px;
-    }
-
-    .contact-title h3{
-        font-size: 18px;
-    }
-
-    .contact-title p{
-        font-size: 15px;
-    }
-}
 
 /* =============== FOOTER ============== */
 
@@ -1019,81 +737,12 @@ span{
     font-weight: 500;
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1199px) {
-    .footer-items {
-        width: 90%;
-    }
-}
 
-@media screen and (max-width: 768px){
 
-    .footer-items{
-        width: 95%;
-        margin: auto;
-    
-    }
-    .social-icon li{
-        margin-bottom: 10px;  
-    }
 
-    .social-icon i{
-        font-size: 12px;
-    }
 
-    .footer-item h4{
-        font-size: 15px;
-    }
 
-    .footer-logo a{
-        font-size: 18px;
-    }
 
-    .footer-item{
-        margin-right: 30px;  
-    }
-    .footer-items:last-child {
-        display: flex;
-        flex-direction: row; 
-        justify-content: flex-start; 
-        width: 95%; 
-        padding: 1px 0;
-    }
-
-}
-
-@media screen and (max-width: 660px){
-    .footer-items {
-        padding: 0;
-        flex-direction: column; 
-        justify-content: space-around; 
-    }
-
-    .social-icon li{
-        padding: 8px 16px;
-        margin-bottom: 0;
-    }
-
-    .created-by{
-        margin-top: 0;
-    }
-
-    .footer-item {
-        width: auto; 
-        margin-bottom: 20px;
-        width: 100%; 
-    }
-
-    .footer-logo a{
-        font-size: 18px;
-    }
-
-}
-
-@media screen and (max-width: 576px){
-    .footer-container{
-        padding: 40px;
-    }
-}
 
 
 
@@ -1128,5 +777,336 @@ span{
     transform: translateY(-.25rem);
     z-index: 1;
 }
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+
+    .projects-info {
+        align-items: center; 
+    }
+    
+    .projects-data {
+        justify-content: center; 
+    }
+
+    .project-list{
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
+    .footer-items {
+        width: 90%;
+    }
+}
+
+@media (max-width: 900px) {
+    nav{
+        padding: 0 10px;
+    }
+
+    .home-data{
+        font-size: 1.3rem;
+        padding: 0 40px;
+    }
+
+    .img-bg{
+        max-height: 80vh;
+        padding: 0 20px;
+    }
+
+    .projects-info {
+        display: flex;          
+        flex-direction: column;  
+    }
+    
+    .projects-info img {
+        max-width: 100%; 
+        margin-bottom: 60px; 
+    }
+
+    .projects-info{
+        padding: 40px;
+        margin-bottom: 60px;
+    }
+
+    .projects-data {
+        width: 100%; 
+        justify-content: center;
+        padding: 0;
+    }
+}
+
+@media(max-width: 800px){
+
+    
+    .hideOnMobile{
+        display: none;
+    }
+
+    .menu-button{
+        display: block;
+    }
+}
+
+
+@media (max-width: 790px) {
+
+    .certification-data h4{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .certification-data p{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+ 
+    .section-about-title{
+        text-align: center;
+    }
+    .about-data {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .about-profile{
+        display: flex; 
+        justify-content: center; 
+        width: 60%;
+        padding: 40px 0px; 
+        margin-bottom: 60px;
+        
+    }
+
+    .about-profile img{
+        width: 100%;
+        max-width: 70%;
+    }
+
+    .about-info {
+        width: 100%; 
+        padding: 0 20px; 
+    }
+
+    .section-about-title{
+        margin-bottom: 30px;
+    }
+
+    .about-skills{
+        margin-top: 60px;
+    }
+
+    .skills-info {
+        justify-content: center;
+    }
+
+    .skills-title{
+        text-align: center;
+    }
+
+    .certification-title{
+        margin: 60px 0 30px 0;
+    }
+
+    .footer-items{
+        width: 95%;
+        margin: auto;
+    
+    }
+    .social-icon li{
+        margin-bottom: 10px;  
+    }
+
+    .social-icon i{
+        font-size: 12px;
+    }
+
+    .footer-item h4{
+        font-size: 15px;
+    }
+
+    .footer-logo a{
+        font-size: 18px;
+    }
+
+    .footer-item{
+        margin-right: 30px;  
+    }
+    .footer-items:last-child {
+        display: flex;
+        flex-direction: row; 
+        justify-content: flex-start; 
+        width: 95%; 
+        padding: 1px 0;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .footer-items {
+        padding: 0;
+        flex-direction: column; 
+        justify-content: space-around; 
+    }
+
+    .social-icon li{
+        padding: 8px 16px;
+        margin-bottom: 0;
+    }
+
+    .created-by{
+        margin-top: 0;
+    }
+
+    .footer-item {
+        width: auto; 
+        margin-bottom: 20px;
+        width: 100%; 
+    }
+
+    .footer-logo a{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 576px) {
+    
+    .home-data{
+        font-size: 1rem;
+        padding-top: 5rem;
+        
+     }
+
+     .home-data p{
+        font-size: 1rem;
+    }
+
+    .img-bg{
+         padding: 0;
+        
+    }
+   
+     .home-button {
+        font-size: 12px; 
+    }
+
+    .container{
+        padding: 100px 20px 20px 20px;
+    }
+    .about-profile{
+        padding: 20px 0;
+    }
+
+    .about-profile img{
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .about-info p{
+        /* text-align: justify; */
+        font-size: 14px;
+    }
+
+    .skills-title{
+        text-align: center;
+    }
+
+    .section-about-title{
+        font-size: 22px;
+    }
+
+    .section-title{
+        font-size: 22px;
+    }
+
+    .certification-items {
+        flex: 0 1 100%; 
+        padding: 15px; 
+    }
+
+    .container{
+        padding: 100px 45px 20px 45px;
+    } 
+
+    .projects-info{
+        padding: 0;
+    }
+
+    .projects-info img{
+        margin-bottom: 30px;
+    }
+    
+    .projects-data{
+        padding: 20px;
+    }
+
+    .projects-name {
+        font-size: 16px; 
+        font-weight: bold;   
+    }
+    
+    .projects-data p{   
+        font-size: 14px;
+    }
+    
+    .footer-container{
+        padding: 40px;
+    }
+}
+
+@media(max-width: 400px){
+
+    nav {
+        padding: 0;
+    }
+    
+    .home-data{
+        padding: 0 30px;
+        padding-top: 10rem;
+    }
+
+    .img-bg{
+        padding: 0;
+        
+    }
+
+    .sidebar{
+        width: 100%;
+    }
+
+    .contact-container .section-title{
+        margin-bottom: 30px;
+    }
+    .contact-info{
+        font-size: 14px;
+    }
+
+    .contact-title h3{
+        font-size: 18px;
+    }
+
+    .contact-title p{
+        font-size: 15px;
+    }
+}
+
+
+
+@media only screen and (max-width: 340px){
+    .container{
+        padding: 100px 0;
+    } 
+}
+
+
+
+
 
 
