@@ -10,6 +10,8 @@
      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
      <!--========== FONT AWESOME ==========-->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css "/>
+     <!--========== BOXICONS ==========-->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <title>Personal portfolio</title>
 </head>
@@ -56,7 +58,7 @@
                 </div>
                 <!-- <div class="home-data">
                     <div class="home-profile"> -->
-                        <img src="images/x4.png" class="img-bg" alt="home profile">
+                        <img src="images/home-profile.png" class="img-bg" alt="home profile">
                     <!-- </div>
                 </div> -->
             </div>
@@ -65,7 +67,8 @@
             <div class="about-container container">
                 <div class="about-data">
                     <div class="about-profile">
-                        <img src="./images/about-image.png" alt="about-image">
+                        <!-- about-imag.png  -->
+                        <img src="./images/about-image1.jpg" alt="about-image">
                     </div>
                     <div class="about-info">
                         <h1 class="section-about-title">
@@ -188,56 +191,53 @@
                  <h1 class="section-project-title">
                      Projects
                  </h1>
-                 <div class="project-list">
-                     <a target="_blank" href="https://www.youtube.com/watch?v=PPYgI1AEYF4">
-                         <div class="projects-info">
-                             <img src="images/projects/inventory-system.png" alt="Inventory-system">
-                             <div class="projects-data">
-                                 <h3 class="projects-name">Inventory Management System</h3>
-                                 <p>Developed an <span>Inventory Management System</span> for  managing and tracking<span> IT assets</span> 
-                                     using HTML, CSS, JavaScript, JQuery, PHP, MySQL, CodeIgniter.
-                                 </p>
-                             </div>
-                         </div>
-                     </a>
-                     <a target="_blank" href="https://github.com/cherryann28/Library-System">
-                         <div class="projects-info">
-                             <img src="images/projects/library.png" alt="Library-system">
-                             <div class="projects-data">
-                                 <h3 class="projects-name">Library System</h3>
-                                 <p>Have done a <span>Library Management System</span> for our <span>Capstone</span> project 
-                                     using HTML, CSS, JavaScript, JQuery, PHP, MySQL, CodeIgniter.
-                                 </p>
-                             </div>
-                         </div>
-                     </a>
-                     <a target="_blank" href="https://www.youtube.com/watch?v=lRGR2pNrHnc">
-                         <div class="projects-info"> 
-                             <img src="images/projects/htmlandcss.png" alt="Webpage">
-                             <div class="projects-data">
-                                 <h3 class="projects-name">HTML & CSS Exam at Village88 Training</h3>
-                                 <p>Able to pass a 4-hr <span>Website cloning exam</span> using pure HTML & CSS only.
-                                 </p>
-                             </div>
-                         </div>
-                     </a>
-                     
-                     <a target="_blank" href="https://cherryann28.github.io/personal-portfolio">
-                         <div class="projects-info">
-                             <img src="images/projects/portfolio.png" alt="Web-portfolio">
-                             <div class="projects-data">
-                                 <h3 class="projects-name">Web Portfolio</h3>
-                                 <p>This would be my first ever website <span>portfolio</span>, which I  
-                                     created while taking Bayan Academy's <span>Intermediate Front-End Web Development </span> Training. 
-                                     More progress is needed, particularly on my <span>projects</span>.
-                                 </p>
-                             </div>
-                         </div>
-                     </a>
-                  
+                 <div class="portfolio-gallery">
+                    <div class="port-box">
+                        <div class="port-image">
+                            <img src="images/projects/inventory-system.png" alt="Inventory-system">
+                        </div>
+                        <div class="port-content">
+                            <h3>Inventory Management System</h3>
+                            <p>
+                                Developed an <span>Inventory Management System</span> for  managing and tracking<span> IT assets</span> 
+                                using HTML, CSS, JavaScript, JQuery, PHP, MySQL, CodeIgniter.
+                            </p>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=PPYgI1AEYF4"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="port-box">
+                        <div class="port-image">
+                            <img src="images/projects/library.png" alt="Library-system">
+                        </div>
+                        <div class="port-content">
+                            <h3>Web-based Library System</h3>
+                            <p>
+                                Have done a <span>Library Management System</span> for our <span>Capstone</span> project 
+                                using HTML, CSS, JavaScript, JQuery, PHP, MySQL, CodeIgniter.
+                            </p>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=Sv7NioObXbc"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="port-box">
+                        <div class="port-image">
+                            <img src="images/projects/portfolio1.png" alt="Web-portfolio">
+                        </div>
+                        <div class="port-content">
+                            <h3>Web Portfolio</h3>
+                            <p>
+                                This would be my first ever website <span>portfolio</span>, which I  
+                                created while taking Bayan Academy's <span>Intermediate Front-End Web Development </span> Training. 
+                                More progress is needed, particularly on my <span>projects</span>.
+                            </p>
+                            <a target="_blank" href="https://cherryann28.github.io/personal-portfolio"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
                  </div>
              </div>
          </section>
+
          <section id="contact">
             <div class="contact-container">
                 <h1 class="section-contact-title">
@@ -277,9 +277,8 @@
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>
     </main>
-
     <footer>
         <div class="footer-container">
            <div class="footer-items">
@@ -328,9 +327,18 @@
         </a>
     </footer>
 
+   
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="main.js"></script>
+<!-- https://www.youtube.com/watch?v=0fYi8SGA20k&t=2457s -->
+<!-- https://www.youtube.com/watch?v=THUpdZGA7f0 -->
 
+
+
+<!-- https://youtube.com/watch?v=fZm4gJDY_zY -->
+<!-- https://www.youtube.com/watch?v=wj7hZx2ean0 -->
+<!-- https://boxicons.com/usage -->
+<!-- https://paperheartdesign.com/blog/color-palette-pleasantly-purple -->
 </body>
 </html>
